@@ -18,4 +18,5 @@ class Question extends Model
         $this->attributes['slug'] = str_slug($value);
     }
 
+
 }
